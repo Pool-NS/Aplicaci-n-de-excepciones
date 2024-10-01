@@ -10,7 +10,6 @@ def obtener_numero_natural():
             num = int(num)
             if num < 1:
                 raise NumeroInvalidoError("Oopps!...El número debe ser un natural (mayor o igual a 1).")
-            # Salimos del bucle si el número es válido
             break
         except ValueError:
             print("Entrada inválida: debe ser un número entero.")
